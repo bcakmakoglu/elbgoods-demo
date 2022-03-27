@@ -1,37 +1,26 @@
 {
-  "name": "temple-of-time",
-  "version": "0.0.1",
-  "private": false,
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/bcakmakoglu/temple-of-time"
-  },
-  "keywords": [
-    "braks"
-  ],
-  "license": "MIT",
-  "author": "Burak Cakmakoglu<https://github.com/bcakmakoglu>",
-  "homepage": "https://github.com/bcakmakoglu/temple-of-time#readme",
-  "exports": {
-    ".": {
-      "import": "./dist/temple-of-time.esm.js",
-      "require": "./dist/temple-of-time.cjs.js"
-    },
-    "./*": "./*"
-  },
-  "main": "./dist/temple-of-time.cjs.js",
-  "types": "./dist/temple-of-time.d.ts",
-  "module": "./dist/temple-of-time.esm.js",
-  "unpkg": "./dist/temple-of-time.iife.min.js",
-  "jsdelivr": "./dist/temple-of-time.iife.min.js",
-  "files": [
-    "dist"
-  ],
+  "name": "elbgoods-demo",
+  "private": true,
+  "version": "0.0.0",
   "scripts": {
-    "test": "exit 0"
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
   },
-  "publishConfig": {
-    "access": "public",
-    "registry": "http://registry.npmjs.org/"
+  "dependencies": {
+    "vue": "^3.2.25"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.18.9",
+    "@vitejs/plugin-vue": "^2.2.0",
+    "eslint": "^8.12.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.6.1",
+    "typescript": "^4.5.4",
+    "unplugin-auto-import": "^0.6.6",
+    "vite": "^2.8.0",
+    "vite-plugin-windicss": "^1.8.3",
+    "vue-tsc": "^0.29.8"
   }
 }
