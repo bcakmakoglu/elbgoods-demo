@@ -1,19 +1,14 @@
 <script setup lang="ts">
-
+import Main from '~/pages/Main.vue'
 </script>
-
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
+  <Suspense>
+    <Main />
+  </Suspense>
 </template>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  @apply min-h-100vh min-w-[320px] max-w-full pb-12;
 }
 </style>

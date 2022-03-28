@@ -10,7 +10,9 @@
       "capacityMin": 1,
       "capacityMax": 100,
       "rooms": 1,
-      "cateringType": "Hauseigenes Catering"
+      "cateringType": "Hauseigenes Catering",
+      "image": "https://eventlocations.imgix.net/KuLjQB3ek82mko7SgqJ5R1dFLTMC62paj0tqQbPs.jpeg?ar=5%3A3&auto=compress%2Cformat&fit=crop",
+      "price": "83,30€ p.P."
     },
     {
       "id": 2,
@@ -22,7 +24,9 @@
       "capacityMin": 10,
       "capacityMax": 80,
       "rooms": 2,
-      "cateringType": "Hauseigenes Catering"
+      "cateringType": "Hauseigenes Catering",
+      "image": "https://eventlocations.imgix.net/kvOyAvIZVdHYUVGNWQciw8UAm3JWfcRgFXauZ6h6.jpg?ar=5%3A3&auto=compress%2Cformat&fit=crop",
+      "price": "53,00€ p.P."
     },
     {
       "id": 3,
@@ -34,7 +38,51 @@
       "capacityMin": 1,
       "capacityMax": 300,
       "rooms": null,
-      "cateringType": "Catering frei"
+      "cateringType": "Catering frei",
+      "image": "https://eventlocations.imgix.net/UJRmeu55BsF6yarv8sQgwbSm5BImJmbd01BvC18X.jpeg?ar=5%3A3&auto=compress%2Cformat&fit=crop",
+      "price": "Auf Anfrage"
+    },
+    {
+      "id": 4,
+      "title": "Backstage",
+      "zipCode": "10243",
+      "area": "Friedrichshain",
+      "city": "Berlin",
+      "country": "Deutschland",
+      "capacityMin": 1,
+      "capacityMax": 100,
+      "rooms": 1,
+      "cateringType": "Hauseigenes Catering",
+      "image": "https://eventlocations.imgix.net/KuLjQB3ek82mko7SgqJ5R1dFLTMC62paj0tqQbPs.jpeg?ar=5%3A3&auto=compress%2Cformat&fit=crop",
+      "price": "83,30€ p.P."
+    },
+    {
+      "id": 5,
+      "title": "Hotel Grenzfall",
+      "zipCode": "13355",
+      "area": null,
+      "city": "Berlin",
+      "country": "Deutschland",
+      "capacityMin": 10,
+      "capacityMax": 80,
+      "rooms": 2,
+      "cateringType": "Hauseigenes Catering",
+      "image": "https://eventlocations.imgix.net/kvOyAvIZVdHYUVGNWQciw8UAm3JWfcRgFXauZ6h6.jpg?ar=5%3A3&auto=compress%2Cformat&fit=crop",
+      "price": "53,00€ p.P."
+    },
+    {
+      "id": 6,
+      "title": "Oberhafenkantine Berlin",
+      "zipCode": "12435",
+      "area": null,
+      "city": "Berlin",
+      "country": "Deutschland",
+      "capacityMin": 1,
+      "capacityMax": 300,
+      "rooms": null,
+      "cateringType": "Catering frei",
+      "image": "https://eventlocations.imgix.net/UJRmeu55BsF6yarv8sQgwbSm5BImJmbd01BvC18X.jpeg?ar=5%3A3&auto=compress%2Cformat&fit=crop",
+      "price": "Auf Anfrage"
     }
   ]
 }
