@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "Backstage",
+      "zipCode": "10243",
+      "area": "Friedrichshain",
+      "city": "Berlin",
+      "country": "Deutschland",
+      "capacityMin": 1,
+      "capacityMax": 100,
+      "rooms": 1,
+      "cateringType": "Hauseigenes Catering"
+    },
+    {
+      "id": 2,
+      "title": "Hotel Grenzfall",
+      "zipCode": "13355",
+      "area": null,
+      "city": "Berlin",
+      "country": "Deutschland",
+      "capacityMin": 10,
+      "capacityMax": 80,
+      "rooms": 2,
+      "cateringType": "Hauseigenes Catering"
+    },
+    {
+      "id": 3,
+      "title": "Oberhafenkantine Berlin",
+      "zipCode": "12435",
+      "area": null,
+      "city": "Berlin",
+      "country": "Deutschland",
+      "capacityMin": 1,
+      "capacityMax": 300,
+      "rooms": null,
+      "cateringType": "Catering frei"
+    }
+  ]
+}
