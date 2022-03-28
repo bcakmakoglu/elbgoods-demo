@@ -17,6 +17,9 @@ Example for starting/building app:
 # start (dev)
 $ yarn dev
 
+# start server
+$ yarn server
+
 # build app
 $ yarn build
 
